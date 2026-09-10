@@ -44,7 +44,7 @@ public final class RainEffects {
             int z = player.blockPosition().getZ()
                     + random.nextInt(radius * 2 + 1) - radius;
 
-            BlockPos surface = level.getHeight(
+            BlockPos surface = level.getHeight (
                     net.minecraft.world.level.levelgen.Heightmap.Types.MOTION_BLOCKING,
                     x,
                     z
